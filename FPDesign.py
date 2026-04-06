@@ -2,6 +2,7 @@
 #(car, walking, bking etc.) and then a distance travelled, and finding the kg of CO2 produced
 
 # List of valid options
+# Open file of 
 
 transportation = ['car', 'bike', 'walk', 'train']
 
