@@ -14,5 +14,8 @@ while True:
     else:
         print('Accepted modes of transport are: car, bike, walk, train. Try again...')
 
+# Let user input their mileage
+
+
 
 
