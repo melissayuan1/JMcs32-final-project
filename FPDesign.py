@@ -6,12 +6,13 @@
 transportation = ['car', 'bike', 'walk', 'train']
 
 # Let user input their data
-my_transportation = input('What is your usual form of daily transportation?').lower()
+while True:
+    my_transportation = input('What is your usual form of daily transportation?').lower()
 
-if my_transportation in transportation:
-    break
-else:
-    print('Accepted modes of transport are: car, bike, walk, train. Try again...')
+    if my_transportation in transportation:
+        break
+    else:
+        print('Accepted modes of transport are: car, bike, walk, train. Try again...')
 
 
 
