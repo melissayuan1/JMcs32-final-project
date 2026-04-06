@@ -3,15 +3,15 @@
 
 # List of valid options
 
-transportation = ['car', 'bike', 'walk', 'train', 'plane']
+transportation = ['car', 'bike', 'walk', 'train']
 
 # Let user input their data
-my_transportation = input('How did you travel today').lower()
+my_transportation = input('What is your usual form of daily transportation?').lower()
 
 if my_transportation in transportation:
     break
 else:
-    print('Shape must be rock, paper, or scissors. Try again...')
+    print('Accepted modes of transport are: car, bike, walk, train. Try again...')
 
 
 
