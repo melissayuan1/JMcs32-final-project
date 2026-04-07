@@ -5,6 +5,19 @@
 # Open file of transportation options
 import csv
 
+def load_data(directory='small'):
+    # Load people
+    with open(f"{directory}/people.csv", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            id = int(row["id"])
+            people[id] = {
+                "name": row["name"],
+                "birth": row["birth"],
+                "movies": set(),
+                "visited": False
+            }
+
 transportation = ['car', 'bike', 'walk', 'train']
 
 # Let user input their data
