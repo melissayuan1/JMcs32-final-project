@@ -12,6 +12,17 @@ with open('data1.csv') as file:
 
     for row in reader:
         transportation.append(row['transportation'])
+        emission = row['emissions']
+        emissions_map[transport] = emission
+
+# Step 2: Ask user for input
+user_input = input("Enter a mode of transportation: ").lower()
+
+# Step 3: Look it up
+if user_input in emissions_map:
+    print(f"Emissions for {user_input}: {emissions_map[user_input]}")
+else:
+    print("Transportation mode not found.")
 
 print(transportation)
 
