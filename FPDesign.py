@@ -35,7 +35,7 @@ print(f"Your transportation: {my_transportation}")
 print(f"Estimated emissions: {user_emission}")
 
 # Let user input their mileage
-my_distance = input('How far do you travel on an average day —— think your commute, going to school, and other daily destinations!')
+my_distance = input('How far do you travel on an average day — think your commute, going to school, and other daily destinations!')
 
 # Calculate total mileage
 transportation_footprint = user_emission * int(my_distance)
