@@ -12,7 +12,11 @@ with open('data1.csv') as file:
     reader = csv.DictReader(file)  # reads rows as dictionaries
 
     for row in reader:
-        transportation.append(row['transportation'])
+        transport = row['transportation'].lower()
+        emission = float(row['emissions'])   # convert to number
+
+        transportation.append(transport)
+        emissions_map[transport] = emission  # store mapping
 
 
 # Let user input their data
@@ -25,12 +29,15 @@ while True:
         print('Accepted modes of transport are: car, bike, walk, train. Try again...')
 
 # Take inputs of carbon footprints from different modes of transport, match to user input.
-per_kilometer = ####
+user_emission = emissions_map[my_transportation]
+
+print(f"Your transportation: {my_transportation}")
+print(f"Estimated emissions: {user_emission}")
 
 # Let user input their mileage
 my_distance = input('How far do you travel on an average day —— think your commute, going to school, and other daily destinations!')
 
 # Calculate total mileage
-transportation_footprint = per_kilometer * my_distance
+transportation_footprint = user_emission * my_distance
 
 
