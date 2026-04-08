@@ -5,7 +5,7 @@
 # Open file of transportation options
 import csv
 
-with open('/Users/melissayuan/Downloads/carbon-footprint-travel-mode/carbon-footprint-travel-mode.csv') as file:
+with open('data1.csv') as file:
     reader = csv.reader(file)
     for row in reader:
         print(row)
