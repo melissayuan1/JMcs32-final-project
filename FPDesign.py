@@ -21,7 +21,7 @@ with open('data1.csv') as file:
 
 # Let user input their data
 while True:
-    my_transportation = input('Pick your usual form of daily transportation from these option!').lower()
+    my_transportation = input('Pick your usual form of daily transportation from these options!').lower()
 
     if my_transportation in transportation:
         break
@@ -38,6 +38,7 @@ print(f"Estimated emissions: {user_emission}")
 my_distance = input('How far do you travel on an average day —— think your commute, going to school, and other daily destinations!')
 
 # Calculate total mileage
-transportation_footprint = user_emission * my_distance
+transportation_footprint = user_emission * int(my_distance)
+print(transportation_footprint)
 
 
