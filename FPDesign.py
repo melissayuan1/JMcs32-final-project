@@ -26,12 +26,12 @@ while True:
         print('Accepted modes of transport are: car, bike, walk, train. Try again...')
 
 # Take inputs of carbon footprints from different modes of transport, match to user input.
-per_mile = ####
+per_kilometer = ####
 
 # Let user input their mileage
 my_distance = input('How far do you travel on an average day —— think your commute, going to school, and other daily destinations!')
 
 # Calculate total mileage
-transportation_footprint = per_mile * my_distance
+transportation_footprint = per_kilometer * my_distance
 
 
