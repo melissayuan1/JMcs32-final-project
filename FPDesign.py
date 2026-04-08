@@ -5,18 +5,10 @@
 # Open file of transportation options
 import csv
 
-def load_data(directory='small'):
-    # Load people
-    with open(f"{directory}/people.csv", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            id = int(row["id"])
-            people[id] = {
-                "name": row["name"],
-                "birth": row["birth"],
-                "movies": set(),
-                "visited": False
-            }
+with open('/Users/melissayuan/Downloads/carbon-footprint-travel-mode/carbon-footprint-travel-mode.csv') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
 
 transportation = ['car', 'bike', 'walk', 'train']
 
@@ -30,7 +22,7 @@ while True:
         print('Accepted modes of transport are: car, bike, walk, train. Try again...')
 
 # Take inputs of carbon footprints from different modes of transport, match to user input.
-per_mile = ####
+#per_mile = ####
 
 # Let user input their mileage
 my_distance = input('How far do you travel on an average day —— think your commute, going to school, and other daily destinations!')
