@@ -1,0 +1,8 @@
+transportation,emissions
+"bus", 96.5
+"car", 170
+"electric car", 47
+"subway", 27
+"train", 35
+"bike", 17
+"walk", 1
