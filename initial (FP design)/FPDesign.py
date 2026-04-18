@@ -41,7 +41,7 @@ my_distance = input('How far do you travel on an average day — think your comm
 transportation_footprint = user_emission * int(my_distance)
 print(transportation_footprint)
 
-# next steps: get jaimie's thing to work
+# next steps:
 # make a function and for loop to generalize our process
 # acquire better inputs lol
 # figure out recommendation stuff
