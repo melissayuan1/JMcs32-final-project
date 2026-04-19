@@ -20,3 +20,6 @@ Our project now prompts a user to think about and input various metric in their 
 4) As prompted, enter your average shower length in minutes
 5) As prompted, enter an estimate of the number of burgers/servings of red meat you consume weekly
 6) Consider the suggestions offered by the program!
+
+# Citations
+1) We used
