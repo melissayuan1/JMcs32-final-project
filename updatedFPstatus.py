@@ -6,7 +6,7 @@ from modules.calculate import calculate_transport
 from modules.calculate import calculate_water
 
 #intial print statement
-print("##CARBON FOOTPRINT CALCULATOR BASED ON TRANSPORTATION, ENERGY TYPE, AND WATER USAGE##")
+print("##CARBON FOOTPRINT CALCULATOR BASED ON TRANSPORTATION, MEAT CONSUMPTION, AND WATER USAGE##")
 
 # Load data
 transport_data = load_data('data/transport.csv', 'transportation', 'emissions')
@@ -29,7 +29,7 @@ energy = get_valid_input("Energy type used: ", energy_data.keys())
 
 
 
-total = transport_emissions + water_emissions 
+total = transport_emissions + water_emissions
 
 # output
 print(f"\nTotal Daily CO₂: {total:.2f} kg")
