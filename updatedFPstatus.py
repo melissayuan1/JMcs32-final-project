@@ -20,7 +20,7 @@ print(f'Transportation emissions: {transport_emissions:.2f} kg per day')
 
 #user input - shower
 shower_time = get_float("Minutes per shower: ")
-water_emissions = calculate_water(shower_time, 0.2)
+water_emissions = calculate_water(shower_time, 0.02)
 print(f'Shower emissions: {water_emissions:.2f} kg per day')
 
 #use input - meat consumption

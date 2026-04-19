@@ -23,5 +23,5 @@ Our project now prompts a user to think about and input various metric in their 
 6) Consider the suggestions offered by the program!
 
 # Citations
-1) We used US Environmental to populate our csv files with data
+1) We used (https://ourworldindata.org/travel-carbon-footprint), and GAI to populate our csv files with data
 2) We used generative AI to help us generalize our process and simplify our code: since our three steps are quite repetitive, we used AI to create the functions that allowed us to not repeat code so much
