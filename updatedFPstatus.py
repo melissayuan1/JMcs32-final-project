@@ -38,6 +38,8 @@ print(f"\nTotal Daily CO₂: {total:.2f} kg")
 inputs = {
     "transport": transport,
     "shower_time": shower_time,
+    "meat": meat_emissions,
+
 }
 
 recs = get_recommendations(inputs)
