@@ -25,3 +25,4 @@ Our project now prompts a user to think about and input various metric in their 
 # Citations
 1) We used (https://ourworldindata.org/travel-carbon-footprint) and (co2data.org) to populate our csv files with data
 2) We used generative AI to help us generalize our process and simplify our code: since our three steps are quite repetitive, we used AI to create the functions that allowed us to not repeat code so much
+3) A new method we learned from generative AI was .keys - this is to retrieve the valid options for a given dictionary
