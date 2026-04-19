@@ -22,4 +22,5 @@ Our project now prompts a user to think about and input various metric in their 
 6) Consider the suggestions offered by the program!
 
 # Citations
-1) We used
+1) We used ___ to populate our csv files with data
+2) We used generative AI to help us generalize our process
