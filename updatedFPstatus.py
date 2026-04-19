@@ -9,7 +9,6 @@ print("##CARBON FOOTPRINT CALCULATOR BASED ON TRANSPORTATION, MEAT CONSUMPTION, 
 
 # Load data
 transport_data = load_data('data/transport.csv', 'transportation', 'emissions')
-energy_data = load_data('data/energytype.csv', 'energy_source', 'emissions')
 
 # user inputs - trans
 transport = get_valid_input("Mode of transportation: ", transport_data.keys())
