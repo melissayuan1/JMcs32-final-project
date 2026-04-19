@@ -2,8 +2,8 @@
 from modules.dataload import load_data
 from modules.inputs import get_valid_input, get_float
 from modules.recs import get_recommendations
-from modules.calculate import calculate_transport
-from modules.calculate import calculate_water
+from modules.calculate import calculate_transport,calculate_water,calculate_meat
+
 
 #intial print statement
 print("##CARBON FOOTPRINT CALCULATOR BASED ON TRANSPORTATION, MEAT CONSUMPTION, AND WATER USAGE##")
@@ -23,8 +23,9 @@ print(f'Transportation emissions: {transport_emissions} kg per day')
 shower_time = get_float("Minutes per shower: ")
 water_emissions = calculate_water(shower_time, 0.2)
 print(f'Shower emissions: {water_emissions} kg per day')
-#use input - meat consumptiom
-water_emissions = calculate_water(shower_time, 2.35)
+#use input - meat consumption
+burgers_per_week = get_float("Burgers consumed per week: ")
+meat_emissions = calculate_meat(shower_time, 2.35)
 energy = get_valid_input("Energy type used: ", energy_data.keys())
 
 
