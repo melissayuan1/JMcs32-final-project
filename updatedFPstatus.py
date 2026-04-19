@@ -17,7 +17,7 @@ energy_data = load_data('data/energytype.csv', 'energy_source', 'emissions')
 transport = get_valid_input("Mode of transportation: ", transport_data.keys())
 distance = get_float("Miles per day: ")
 transport_emissions = calculate_transport(transport_data, transport, distance)
-print(f'Transportation emissions: {transport_emissions }')
+print(f'Transportation emissions: {transport_emissions} kg per day')
 
 
 energy = get_valid_input("Energy type used: ", energy_data.keys())
