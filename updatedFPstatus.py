@@ -17,22 +17,19 @@ distance = get_float("Miles per day: ")
 
 #calc - transport emissions
 transport_emissions = calculate_transport(transport_data, transport, distance)
-print(f'Transportation emissions: {transport_emissions} kg per day')
+print(f'Transportation emissions: {transport_emissions:.2f} kg per day')
 
 #user input - shower
 shower_time = get_float("Minutes per shower: ")
 water_emissions = calculate_water(shower_time, 0.2)
-print(f'Shower emissions: {water_emissions} kg per day')
+print(f'Shower emissions: {water_emissions:.2f} kg per day')
 
 #use input - meat consumption
 burgers_per_week = get_float("Burgers consumed per week: ")
 meat_emissions = calculate_meat(burgers_per_week, 2.35)
-energy = get_valid_input("Energy type used: ", energy_data.keys())
+print(f'Red meat emissions: {meat_emissions:.2f} kg per day')
 
-
-
-
-total = transport_emissions + water_emissions
+total = transport_emissions + water_emissions + meat_emissions
 
 # output
 print(f"\nTotal Daily CO₂: {total:.2f} kg")
