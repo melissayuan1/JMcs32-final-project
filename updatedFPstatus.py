@@ -10,10 +10,11 @@ energy_data = load_data('data/energytype.csv', 'energy_source', 'emissions')
 
 # user inputs
 transport = get_valid_input("Transport: ", transport_data.keys())
+energy = get_valid_input("Energy: ", energy_data.keys())
 distance = get_float("Miles per day: ")
 shower_time = get_float("Minutes per shower: ")
 
-# --- CALCULATIONS ---
+# calc
 def calculate_water(minutes_shower, emission_per_min):
     return minutes_shower * emission_per_min
 def calculate_transport(emissions_map, transport, distance):
