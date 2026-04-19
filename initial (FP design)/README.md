@@ -23,4 +23,4 @@ Our project now prompts a user to think about and input various metric in their 
 
 # Citations
 1) We used ___ to populate our csv files with data
-2) We used generative AI to help us generalize our process
+2) We used generative AI to help us generalize our process and simplify our code: since our three steps are quite repetitive, we used AI to create the functions that allowed us to not repeat code so much
