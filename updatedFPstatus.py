@@ -6,9 +6,9 @@ from modules.recs import get_recommendations
 
 # Load data
 transport_data = load_data('data/transport.csv', 'transportation', 'emissions')
-#energy_data = load_data('data/energytype.csv', 'energy', 'emissions')
+energy_data = load_data('data/energytype.csv', 'energy_source', 'emissions')
 
-# --- USER INPUTS ---
+# user inputs
 transport = get_valid_input("Transport: ", transport_data.keys())
 distance = get_float("Miles per day: ")
 shower_time = get_float("Minutes per shower: ")
