@@ -4,7 +4,7 @@ def get_recommendations(inputs):
     if inputs["transport"] == "car":
         recs.append("Try public transport, biking, or carpooling.")
 
-    if meat > "beef":
+    if inputs["meat_emissions"] > 0.67:
         recs.append("Reducing beef consumption has a huge impact.")
 
     if inputs["shower_time"] > 10:
