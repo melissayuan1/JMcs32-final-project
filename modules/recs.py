@@ -10,6 +10,7 @@ def get_recommendations(inputs):
     if inputs["shower_time"] > 10:
         recs.append("Shorten showers to save water and energy.")
 
-    if recs is None:
+    if recs == ' ':
         recs.append("Keep up the great work. Here is a link to more suggestions to reduce your carbon footprint: https://www.un.org/en/actnow/ten-actions ")
+
     return recs
