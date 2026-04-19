@@ -9,7 +9,8 @@ Calculating carbon footprint based on a few daily actions: transportation, meat 
 2) Use carbon footprint data for each activity, calculate based on user inputs
 3) Find a list of suggestions using if statements, or dictionary to select proper recommendations
 
-# FP Status Update
+
+# FP Status Update:
 # Description
 Our project now prompts a user to think about and input various metric in their daily routine that contribute to their carbon footprint: transportation, meat consumption, and water usage. Based on a user's habits, the program then generates a few suggestions tailored to help the individual reduce their carbon footprint and negative environmental impact.
 
