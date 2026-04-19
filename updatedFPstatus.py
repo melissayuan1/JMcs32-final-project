@@ -26,7 +26,7 @@ print(f'Shower emissions: {water_emissions} kg per day')
 
 #use input - meat consumption
 burgers_per_week = get_float("Burgers consumed per week: ")
-meat_emissions = calculate_meat(shower_time, 2.35)
+meat_emissions = calculate_meat(burgers_per_week, 2.35)
 energy = get_valid_input("Energy type used: ", energy_data.keys())
 
 
