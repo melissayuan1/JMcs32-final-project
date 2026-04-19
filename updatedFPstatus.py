@@ -32,7 +32,7 @@ print(f'Red meat emissions: {meat_emissions:.2f} kg per day')
 total = transport_emissions + water_emissions + meat_emissions
 
 # output
-print(f"\nTotal Daily CO₂: {total:.2f} kg")
+print(f"\nTotal Daily CO₂: {total:.2f} kg per day")
 
 # recs
 inputs = {
