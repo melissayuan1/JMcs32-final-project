@@ -28,4 +28,4 @@ Our project now prompts a user to think about and input various metric in their 
 3) A new method we learned from generative AI was .keys - this is to retrieve the valid options for a given dictionary
 
 New Ideas:
-Analytics, week long tracker, interface/website, user login (supabase)
+Analytics, week long tracker, interface/website, user login (supabase), randomization function (10 q, only 5 show)
