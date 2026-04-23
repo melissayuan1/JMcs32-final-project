@@ -27,4 +27,5 @@ Our project now prompts a user to think about and input various metric in their 
 2) We used generative AI to help us gereneralize our process and simplify our code: since our three steps are quite repetitive, we used AI to create the functions that allowed us to not repeat code so much
 3) A new method we learned from generative AI was .keys - this is to retrieve the valid options for a given dictionary
 
-Analytics, week long tracker, interface/website
+New Ideas:
+Analytics, week long tracker, interface/website, user login (supabase)
