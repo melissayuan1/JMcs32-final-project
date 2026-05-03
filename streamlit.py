@@ -53,6 +53,3 @@ if st.button("Calculate My Footprint"):
     #prints suggestions as a list
     for r in recs:
         st.info(r)
-
-
-#TO DO: FIGURE OUT A WAY TO INCORPORATE INPUTS.PY
