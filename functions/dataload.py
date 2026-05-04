@@ -1,6 +1,6 @@
 import csv
 
-def load_data(filename, key, value):d
+def load_data(filename, key, value):
     data_map = {} #empty dictionary
     with open(f'data/{filename}', encoding="utf-8") as file: #used + adjusted from degrees32_lib.py
         reader = csv.DictReader(file)
