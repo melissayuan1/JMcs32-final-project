@@ -20,7 +20,7 @@ Our project prompts a user to think about and input various metric in their dail
 5) Enter your average shower length in minutes
 6) Enter an estimate of the number of burgers/servings of red meat you consume weekly
 7) Hit "Calculate my footprint" when you are done inputting your data
-8) Consider the suggestions offered by the program!
+8) Consider the suggestions offered by the program! Follow the given link if there are no further recommendations
 9) Website will keep running until user types 'Ctrl + C' in the terminal
 
 # Citations
