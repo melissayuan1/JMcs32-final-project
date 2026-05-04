@@ -13,14 +13,15 @@ Calculating carbon footprint based on a few daily actions: transportation, meat 
 Our project prompts a user to think about and input various metric in their daily routine that contribute to their carbon footprint: transportation, meat consumption, and water usage. They are able to input their choices in a streamlit interface. Based on a user's habits, the program then generates a few suggestions tailored to help the individual reduce their carbon footprint and negative environmental impact.
 
 # User Instructions
-1) Run streamlit.py in your terminal - 'streamlit run streamlit.py'
-2) Enter your mode of transportations (car, bike, etc.) from the dropdown menu
-3) Enter your normal distance traveled (consider things like commute, daily bike rides, etc.)
-4) Enter your average shower length in minutes
-5) Enter an estimate of the number of burgers/servings of red meat you consume weekly
-6) Hit "Calculate my footprint" when you are done inputting your data
-7) Consider the suggestions offered by the program!
-8) Website will keep running until user types 'Ctrl + C' in the terminal
+1) Run 'pip install streamlit' in your terminal
+2) Run streamlit.py in your terminal - 'streamlit run streamlit.py'
+3) Enter your mode of transportations (car, bike, etc.) from the dropdown menu
+4) Enter your normal distance traveled (consider things like commute, daily bike rides, etc.)
+5) Enter your average shower length in minutes
+6) Enter an estimate of the number of burgers/servings of red meat you consume weekly
+7) Hit "Calculate my footprint" when you are done inputting your data
+8) Consider the suggestions offered by the program!
+9) Website will keep running until user types 'Ctrl + C' in the terminal
 
 # Citations
 1) We used (https://ourworldindata.org/travel-carbon-footprint) and (co2data.org) to populate our csv files with data
